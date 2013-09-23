@@ -1,0 +1,52 @@
+body {
+	width: 420px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.item, .submit-button {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+
+
+	font-size: 17px;
+	font-family: "Open Sans";
+
+	color: white;
+}
+
+.item {
+	padding-left: 10px;
+	width: 300px;
+	background-color: #66CBC4;
+	border: none;
+	vertical-align: top;
+}
+
+input.item {
+	width: 310px;
+}
+
+.submit-button {
+	width: 100px;
+	background-color: #F55757;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+}
+.submit-button:hover {
+	background-color: #F88787;
+}
+
+.item-block {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: top;
+}
